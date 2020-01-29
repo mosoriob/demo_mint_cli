@@ -10,3 +10,4 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install -y singularity-container python3-setuptools
   - pip3 install mint-cli
+  - mint setup run fsi_1.0_simple_et_ss
