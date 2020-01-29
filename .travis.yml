@@ -1,4 +1,6 @@
-language: generic
+language: python
+python:
+  - 3.7
 dist: bionic
 before_install:
   - wget -O- http://neuro.debian.net/lists/xenial.us-ca.full | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
